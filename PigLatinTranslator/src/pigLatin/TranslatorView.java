@@ -84,4 +84,9 @@ public class TranslatorView
 		btnTranslate.setBounds(253, 223, 131, 46);
 		frmPigLatinTranslator.getContentPane().add(btnTranslate);
 	}
+	
+//	public void displayView(JFrame frame, TextField )
+//	{
+//		TranslatorView view = new TranslatorView();
+//	}
 }
