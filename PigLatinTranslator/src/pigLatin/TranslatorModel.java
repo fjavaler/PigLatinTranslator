@@ -4,7 +4,7 @@
 package pigLatin;
 
 /**
- * @author frederickjavalera
+ * @author Frederick Javalera
  *
  */
 public class TranslatorModel
