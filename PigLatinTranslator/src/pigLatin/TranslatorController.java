@@ -9,11 +9,11 @@ package pigLatin;
  */
 public class TranslatorController
 {
-	TranslatorModel model = new TranslatorModel();
-	TranslatorView view = new TranslatorView();
+//	private static TranslatorModel model = new TranslatorModel();
+//	private static TranslatorView view = new TranslatorView();
 	
 	static void Main()
 	{
-		
+		TranslatorView.main(null);
 	}
 }
