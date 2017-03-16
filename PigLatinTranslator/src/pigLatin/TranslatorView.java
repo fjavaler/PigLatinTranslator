@@ -9,7 +9,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.Color;
 
-public class TranslatorGUI
+public class TranslatorView
 {
 
 	private JFrame frmPigLatinTranslator;
@@ -27,7 +27,7 @@ public class TranslatorGUI
 			{
 				try
 				{
-					TranslatorGUI window = new TranslatorGUI();
+					TranslatorView window = new TranslatorView();
 					window.frmPigLatinTranslator.setVisible(true);
 				}
 				catch (Exception e)
@@ -41,7 +41,7 @@ public class TranslatorGUI
 	/**
 	 * Create the application.
 	 */
-	public TranslatorGUI()
+	public TranslatorView()
 	{
 		initialize();
 	}
