@@ -21,8 +21,8 @@ public class TranslatorView
 	private JTextField englishTextField;
 	private JTextField pigLatinTextField;
 	private JButton btnClear;
-	private JLabel lblNewLabel;
-	private JLabel lblNewLabel_1;
+	private JLabel englishLabel;
+	private JLabel pigLatinLabel;
 
 	/**
 	 * Launch the application.
@@ -150,14 +150,14 @@ public class TranslatorView
 		btnClear.setBounds(321, 225, 131, 46);
 		framePigLatinTranslator.getContentPane().add(btnClear);
 		
-		lblNewLabel = new JLabel("\n");
-		lblNewLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pig.png")));
-		lblNewLabel.setBounds(520, 198, 130, 130);
-		framePigLatinTranslator.getContentPane().add(lblNewLabel);
+		englishLabel = new JLabel("\n");
+		englishLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pig.png")));
+		englishLabel.setBounds(520, 198, 130, 130);
+		framePigLatinTranslator.getContentPane().add(englishLabel);
 		
-		lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon(TranslatorView.class.getResource("/pigLatin.png")));
-		lblNewLabel_1.setBounds(161, 174, 172, 53);
-		framePigLatinTranslator.getContentPane().add(lblNewLabel_1);
+		pigLatinLabel = new JLabel("");
+		pigLatinLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pigLatin.png")));
+		pigLatinLabel.setBounds(161, 174, 172, 53);
+		framePigLatinTranslator.getContentPane().add(pigLatinLabel);
 	}
 }

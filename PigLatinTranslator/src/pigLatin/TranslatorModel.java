@@ -18,15 +18,17 @@ public class TranslatorModel
 		String newWord = "";
 		for(String word : textString)
 		{
+			int j = 0;
 			for(int i = 0; i < word.length(); i++)
 			{
 				if(word.charAt(i) == 'a' || word.charAt(i) == 'e' || word.charAt(i) == 'i' 
 						|| word.charAt(i) == 'o' || word.charAt(i) == 'u' || word.charAt(i) == 'y')
 				{
-					for(int j = i; j < word.length(); j++)
+					for(j = i; j < word.length(); j++)
 					{
 						newWord1 += word.charAt(i);
 					}
+					j++;
 				}
 				else
 				{
