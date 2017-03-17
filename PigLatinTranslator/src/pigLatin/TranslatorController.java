@@ -1,16 +1,21 @@
-/**
- * 
- */
 package pigLatin;
 
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
 /**
+ * 
  * @author Frederick Javalera
- *
  */
 public class TranslatorController
-{
-//	private static TranslatorModel model = new TranslatorModel();
-//	private static TranslatorView view = new TranslatorView();
+{	
+	TranslatorModel model = new TranslatorModel();
+
+	public String getTranslation(String englishText)
+	{
+		String convertedString = model.convertToLatin(englishText);
+		return convertedString;
+	}
 	
 	
 }
