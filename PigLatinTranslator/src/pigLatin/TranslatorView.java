@@ -125,14 +125,12 @@ public class TranslatorView
 			public void actionPerformed(ActionEvent e) 
 			{
 				String s = englishTextField.getText();
-				System.out.println(s); 
 				String s2 = controller.getTranslation(s);
-				System.out.println(s2);
 				pigLatinTextField.setText(s2);
 			}
 		});
 		btnTranslate.setForeground(Color.DARK_GRAY);
-		btnTranslate.setFont(new Font("Noto Sans UI", Font.PLAIN, 21));
+		btnTranslate.setFont(new Font("Noto Sans UI", Font.BOLD, 21));
 		btnTranslate.setBounds(178, 225, 131, 46);
 		framePigLatinTranslator.getContentPane().add(btnTranslate);
 		
@@ -146,17 +144,17 @@ public class TranslatorView
 			}
 		});
 		btnClear.setForeground(Color.DARK_GRAY);
-		btnClear.setFont(new Font("Noto Sans UI", Font.PLAIN, 21));
+		btnClear.setFont(new Font("Noto Sans UI", Font.BOLD, 21));
 		btnClear.setBounds(321, 225, 131, 46);
 		framePigLatinTranslator.getContentPane().add(btnClear);
 		
 		englishLabel = new JLabel("\n");
-		//englishLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pig.png")));
+		englishLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pig.png")));
 		englishLabel.setBounds(520, 198, 130, 130);
 		framePigLatinTranslator.getContentPane().add(englishLabel);
 		
 		pigLatinLabel = new JLabel("");
-		//pigLatinLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pigLatin.png")));
+		pigLatinLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pigLatin.png")));
 		pigLatinLabel.setBounds(161, 174, 172, 53);
 		framePigLatinTranslator.getContentPane().add(pigLatinLabel);
 	}
