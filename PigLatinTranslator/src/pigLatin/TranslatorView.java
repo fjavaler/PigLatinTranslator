@@ -151,12 +151,12 @@ public class TranslatorView
 		framePigLatinTranslator.getContentPane().add(btnClear);
 		
 		englishLabel = new JLabel("\n");
-		englishLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pig.png")));
+		//englishLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pig.png")));
 		englishLabel.setBounds(520, 198, 130, 130);
 		framePigLatinTranslator.getContentPane().add(englishLabel);
 		
 		pigLatinLabel = new JLabel("");
-		pigLatinLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pigLatin.png")));
+		//pigLatinLabel.setIcon(new ImageIcon(TranslatorView.class.getResource("/pigLatin.png")));
 		pigLatinLabel.setBounds(161, 174, 172, 53);
 		framePigLatinTranslator.getContentPane().add(pigLatinLabel);
 	}
