@@ -1,6 +1,28 @@
-/**
- * 
- */
+/********************************************************
+ *
+ *  Project :  Pig Latin Translator
+ *  File    :  TranslatorModel.java
+ *  Name    :  Frederick Javalera
+ *  Date    :  Created: 3/16/2017(Due: 3/20/2017)
+ *
+ *  Description : (Narrative description, not code)
+ *
+ *    1) What is the purpose of the code; what problem does the code solve.
+ *    The purpose of this code is to act as the logical model for the application
+ *    and store all data.
+ *	  
+ *    2) What data-structures are used.
+ *    Arrays and Stringbuilder objects were used for this file.
+ *
+ *    3) What algorithms, techniques, etc. are used in implementing the data structures.
+ *	  Foreach and for loops were very important for handling the applications logic.
+ *
+ *    4) What methods are implemented (optional).
+ *    convertToLatin.
+ *
+ *  Changes :  <Description|date of modifications>
+ *
+ ********************************************************/
 package pigLatin;
 
 /**

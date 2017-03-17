@@ -1,3 +1,28 @@
+/********************************************************
+ *
+ *  Project :  Pig Latin Translator
+ *  File    :  TranslatorView.java
+ *  Name    :  Frederick Javalera
+ *  Date    :  Created: 3/16/2017(Due: 3/20/2017)
+ *
+ *  Description : (Narrative description, not code)
+ *
+ *    1) What is the purpose of the code; what problem does the code solve.
+ *    The purpose of this code is to act as the interface with the user.
+ *	  
+ *    2) What data-structures are used.
+ *    JFrames, JPanels, and JButtons were very important for this file.
+ *
+ *    3) What algorithms, techniques, etc. are used in implementing the data structures.
+ *	  The actionlistener interface was very important in achieving functionality for this
+ *	  assignment.
+ *
+ *    4) What methods are implemented (optional).
+ *    The main method.
+ *
+ *  Changes :  <Description|date of modifications>
+ *
+ ********************************************************/
 package pigLatin;
 
 import java.awt.EventQueue;
@@ -13,6 +38,11 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.ImageIcon;
 
+/**
+ * This class acts as the GUI interface with the user for input and output.
+ * 
+ * @author Frederick Javalera
+ */
 public class TranslatorView
 {
 	
@@ -25,7 +55,7 @@ public class TranslatorView
 	private JLabel pigLatinLabel;
 
 	/**
-	 * Launch the application.
+	 * Launches the application.
 	 */
 	public static void main(String[] args)
 	{
@@ -46,38 +76,8 @@ public class TranslatorView
 		});
 	}
 
-	public JFrame getFramePigLatinTranslator()
-	{
-		return framePigLatinTranslator;
-	}
-
-	public void setFramePigLatinTranslator(JFrame framePigLatinTranslator)
-	{
-		this.framePigLatinTranslator = framePigLatinTranslator;
-	}
-
-	public JTextField getEnglishTextField()
-	{
-		return englishTextField;
-	}
-
-	public void setEnglishTextField(JTextField englishTextField)
-	{
-		this.englishTextField = englishTextField;
-	}
-
-	public JTextField getPigLatinTextField()
-	{
-		return pigLatinTextField;
-	}
-
-	public void setPigLatinTextField(JTextField pigLatinTextField)
-	{
-		this.pigLatinTextField = pigLatinTextField;
-	}
-
 	/**
-	 * Create the application.
+	 * Creates the application.
 	 */
 	public TranslatorView()
 	{
@@ -85,7 +85,7 @@ public class TranslatorView
 	}
 
 	/**
-	 * Initialize the contents of the frame.
+	 * Initializes the contents of the frame.
 	 */
 	private void initialize()
 	{
